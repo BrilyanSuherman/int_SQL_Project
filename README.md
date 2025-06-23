@@ -19,7 +19,7 @@ Query [1_customer_segmentation.sql](1_customer_segmentation.sql)
 
 **📈Visualization:**
 
-<img src="images/customer_ltv_pie_chart.jpg" width="70%">
+<img src="images/customer_ltv_pie_chart.jpg" width="50%">
 
 📊 **Key Findings:**
 - High-value segment (25% of customers) drives 66% of revenue ($135.4M)
@@ -40,7 +40,7 @@ Query [1_customer_segmentation.sql](1_customer_segmentation.sql)
 
 **📈 Visualization:**
 
-<img src="images/2_cohort_analysis.png" alt="Cohort Analysis" style="width: 70%; height: auto;">
+<img src="images/2_cohort_analysis.png" alt="Cohort Analysis" style="width: 50%; height: auto;">
 
 📊 **Key Findings:**
 - Revenue per customer shows an alarming decreasing trend over time
@@ -61,7 +61,7 @@ Query [1_customer_segmentation.sql](1_customer_segmentation.sql)
 
 **📈 Visualization:**
 
-<img src="images/3_customer_churn_cohort_year.png" alt="Customer Churn by Cohort Year" style="width: 70%; height: auto;">
+<img src="images/3_customer_churn_cohort_year.png" alt="Customer Churn by Cohort Year" style="width: 50%; height: auto;">
 
 📊 **Key Findings:**  
 - Cohort churn stabilizes at ~90% after 2-3 years, indicating a predictable long-term retention pattern.  
