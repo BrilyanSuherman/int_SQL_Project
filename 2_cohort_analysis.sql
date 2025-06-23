@@ -1,7 +1,9 @@
-SELECT 
-	cohort_year,
-	count(DISTINCT customerkey) AS total_customer,
-	sum(total_net_revenue) AS total_revenue 
+SELECT
+    cohort_year,
+    SUM(total_net_revenue) AS total_revenue,
+    COUNT(DISTINCT customerkey) AS total_customers,
+    SUM(total_net_revenue) / COUNT(DISTINCT customerkey) AS customer_revenue
 FROM cohort_analysis
+WHERE orderdate = firs_purchase_date
 GROUP BY 
-	cohort_year
+    cohort_year
